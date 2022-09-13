@@ -1,3 +1,5 @@
+import styled from "styled-components";
+
 function ContentFeed() {
     const placeholderData = [
         {
@@ -20,10 +22,24 @@ function ContentFeed() {
         },
     ]
     return ( 
-        <div>
-            
-        </div>
+        <Container>
+            {placeholderData.map((item) => (
+                <Post>
+                    <p>{item.user}</p>
+                    <p>{item.description}</p>
+                </Post>
+            ))}
+        </Container>
      );
 }
 
 export default ContentFeed;
+
+const Container = styled.div`
+    margin-top: 95px;
+`;
+
+const Post = styled.div`
+    border: 1px solid black;
+    margin-bottom: 10px;
+`;

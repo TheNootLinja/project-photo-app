@@ -18,6 +18,7 @@ const Nav = styled.nav`
     display: flex;
     color: white;
     position: fixed;
+    top: 0;
     >p {
         margin: auto;
         font-size: 29px;
