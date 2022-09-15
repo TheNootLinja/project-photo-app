@@ -12,7 +12,7 @@ function TopNav() {
 export default TopNav;
 
 const Nav = styled.nav`
-    height: 94px;
+    height: 60px;
     background: #292929;
     width: 100%;
     display: flex;
@@ -22,7 +22,7 @@ const Nav = styled.nav`
     >p {
         margin: auto;
         font-size: 29px;
-        margin-top: 35px;
+        margin-top: 10px;
     }
 `;
 
@@ -33,5 +33,5 @@ const AvatarPH = styled.div`
     border-radius: 100%;
     position: fixed;
     right: 13px;
-    top: 33px;
+    top: 5px;
 `;

@@ -2,6 +2,7 @@ import Head from 'next/head'
 
 import TopNav from '../components/TopNav'
 import ContentFeed from '../components/ContentFeed'
+import BottomNav from '../components/BottomNav'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       </Head>
       <TopNav/>
       <ContentFeed />
+      <BottomNav />
     </div>
   )
 }
