@@ -26,10 +26,6 @@ function ContentFeed() {
     return ( 
         <Container>
             {placeholderData.map(item => (
-                // <Post>
-                //     <p>{item.user}</p>
-                //     <p>{item.description}</p>
-                // </Post>
                 <Post user={item.user} photo={item.photo} key={item.user}/>
             ))}
         </Container>
@@ -39,7 +35,7 @@ function ContentFeed() {
 export default ContentFeed;
 
 const Container = styled.div`
-    margin-top: 95px;
+    margin-top: 60px;
     margin-bottom: 50px;
 `;
 

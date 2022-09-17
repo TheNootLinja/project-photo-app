@@ -21,6 +21,9 @@ const PostContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    >p {
+        padding: 0 15px;
+    }
 `;
 
 const AvatarPlaceholder = styled.div`

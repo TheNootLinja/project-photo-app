@@ -24,3 +24,7 @@ a {
     background: white;
   }
 }
+
+.menu-active {
+  right: 0;
+}
