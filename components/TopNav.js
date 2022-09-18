@@ -32,6 +32,7 @@ const AvatarPH = styled.div`
     background: black;
     border-radius: 100%;
     position: fixed;
-    right: 13px;
+    left: 13px;
     top: 5px;
+    z-index: 20;
 `;
