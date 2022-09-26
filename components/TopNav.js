@@ -3,7 +3,7 @@ import styled from "styled-components";
 function TopNav({handleClick, menuOpen}) {
     return ( 
         <Nav>
-            <p>{menuOpen ? 'Yes' : 'No'}</p>
+            <p>Plastagram</p>
             <AvatarPH onClick={handleClick}/>
         </Nav>
      );

@@ -10,8 +10,15 @@ import PopOpenMenu from '../components/PopOpenMenu'
 export default function Home() {
   const [ menuOpen, setMenuOpen ] = useState(false);
 
+  let bodyElement = '';
+
+  if(typeof window !== 'undefined') {
+    bodyElement = document.getElementsByTagName("BODY")[0];
+  }
+
   const handleClick = () => {
     setMenuOpen(!menuOpen);
+    bodyElement.classList.toggle('modal-open')
   }
 
   return (
